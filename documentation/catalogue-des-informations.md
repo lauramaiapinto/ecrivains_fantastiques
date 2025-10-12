@@ -4,12 +4,17 @@
 
 ### Personne
 - nom
-- sexe
+- genre
 - date de naissance
 - lieu de naissance
 - origine
 - formation
 - occupation
+
+### Pays
+- Nom
+- Région
+- Langue principale
 
 
 ### Oeuvre
@@ -42,10 +47,8 @@
 
 ## Relations entre objets
 
-- personne est née dans lieu
-- personne est de sexe x ou y
-- oeuvre a été publiée en année
+- personne était vivante pendant événement historique
+- personne vient de lieu
 - oeuvre a pour auteur personne
-- oeuvre a lieu de publication  
 - oeuvre a univers fantastique
 - univers fantastique est lié à événement historique
