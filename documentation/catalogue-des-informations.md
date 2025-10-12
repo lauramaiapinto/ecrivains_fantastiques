@@ -10,15 +10,30 @@
 - origine
 - formation
 - occupation
-- publications
-
 
 
 ### Oeuvre
-- référence bibliographique
+- titre
+- langue originale
 - année de publication
 - lieu de publication
-- contenu/univers fantastique
+
+
+### Univers fantastique
+- nom
+- caractéristique
+
+
+### Evénement historique
+- nom
+- période
+- région
+
+
+
+
+
+
 
 
 
@@ -32,3 +47,5 @@
 - oeuvre a été publiée en année
 - oeuvre a pour auteur personne
 - oeuvre a lieu de publication  
+- oeuvre a univers fantastique
+- univers fantastique est lié à événement historique
