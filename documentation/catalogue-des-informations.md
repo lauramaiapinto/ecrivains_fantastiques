@@ -6,8 +6,6 @@
 - nom
 - genre
 - date de naissance
-- lieu de naissance
-- origine
 - formation
 - occupation
 
