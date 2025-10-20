@@ -4,7 +4,7 @@
 
 ### Personne
 - nom
-- genre
+- genre 
 - date de naissance
 - formation
 - occupation
