@@ -1,4 +1,4 @@
-
+## Tests requêtes
 
 https://en.wikipedia.org/wiki/Patrick_Rothfuss URL
 
@@ -22,3 +22,25 @@ WHERE {
 dbr:List_of_fantasy_authors ?p ?o1.
 ?o1 a dbo:Person.
   }
+
+
+  PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT DISTINCT ?p ?o1 
+WHERE { 
+  dbr:List_of_fantasy_authors ?p ?o1.
+  ?o1 a dbo:Person.
+  }
+LIMIT 10
+
+résultat: 	http://dbpedia.org/resource/Karl_Edward_Wagner
+	http://dbpedia.org/resource/Mark_Lawrence_(author)
+http://dbpedia.org/resource/John_Bellairs
+http://dbpedia.org/resource/Kenneth_Bulmer
+http://dbpedia.org/resource/Lloyd_Arthur_Eshbach
+	http://dbpedia.org/resource/William_Nicholson_(writer)
+	http://dbpedia.org/resource/David_Drake
+	http://dbpedia.org/resource/John_Crowley_(author)
+	http://dbpedia.org/resource/Christopher_Moore_(author)
+	http://dbpedia.org/resource/Jean-Louis_Fetjaine
+
