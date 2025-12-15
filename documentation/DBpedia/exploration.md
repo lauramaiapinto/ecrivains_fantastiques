@@ -44,3 +44,18 @@ http://dbpedia.org/resource/Lloyd_Arthur_Eshbach
 	http://dbpedia.org/resource/Christopher_Moore_(author)
 	http://dbpedia.org/resource/Jean-Louis_Fetjaine
 
+
+
+Situer dans le web sémantique:
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+SELECT ?person ?object
+WHERE { 
+dbr:List_of_fantasy_authors ?p ?person.
+?person a dbo:Person;
+        dbo:birthDate ?birthDate ;
+    <http://www.w3.org/2002/07/owl#sameAs> ?object.
+    BIND(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) AS ?birthYear)
+    FILTER ( ?birthYear > 1770)
+}
+LIMIT 100
