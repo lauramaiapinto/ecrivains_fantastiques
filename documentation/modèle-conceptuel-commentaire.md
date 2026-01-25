@@ -40,3 +40,11 @@ Pays dans lequel l'auteur a vécu et/ou qui a marqué l'auteur et a eu un impact
 ### Propriétés
 
 Nom, région, langue principale
+
+## Organisation
+
+Organisation dont une personne est membre. Une personne peut faire partie de plusieurs organisations.
+
+### 
+
+Nom, définition, lieu
