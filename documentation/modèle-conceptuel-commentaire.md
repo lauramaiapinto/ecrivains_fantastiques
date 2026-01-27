@@ -45,6 +45,14 @@ Nom, région, langue principale
 
 Organisation dont une personne est membre. Une personne peut faire partie de plusieurs organisations.
 
-### 
+### Propriétés
 
 Nom, définition, lieu
+
+## Membership
+
+Foreign key qui lie la personne et l'organisation dont elle a fait partie.ß
+
+### Propriétés
+
+Nom, date de début, date de fin
