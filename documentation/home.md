@@ -10,7 +10,7 @@ Ce projet vise à observer et analyser les auteurs de littérature fantastique e
 ### Phase exploratoire
 
 
-* [Problématique et questionnement](problematique-questionnement.md) ([English version](en_research-question.md))
+* [Problématique et questionnement](problematique-questionnement.md) 
 * [Liste d'écrivains fantastiques](liste-d-ecrivains-fantastiques.md)
 * [Catalogue des informations](catalogue-des-informations.md)
 
