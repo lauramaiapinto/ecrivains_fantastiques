@@ -21,6 +21,14 @@
 - année de publication
 - lieu de publication
 
+### Organisation
+- nom
+- définition
+- date de création
+- date de fin
+- notes
+
+
 
 ### Univers fantastique
 - nom
